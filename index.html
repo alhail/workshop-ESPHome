@@ -1,9 +1,9 @@
 <!DOCTYPE html>
-<html lang="de">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Workshop auf GitHub</title>
+    <title>WEP 2025 Workshop: Smart Home Automation with ESPHome</title>
     <style>
         body {
             font-family: Arial, sans-serif;
@@ -20,8 +20,10 @@
         }
         .container {
             padding: 1rem;
+            max-width: 800px;
+            margin: 0 auto;
         }
-        .workshop-details, .schedule, .registration {
+        .section {
             margin-bottom: 2rem;
             padding: 1rem;
             background: #fff;
@@ -44,38 +46,74 @@
         a:hover {
             text-decoration: underline;
         }
+        img {
+            max-width: 100%;
+            height: auto;
+        }
+        .registration-form input[type="text"],
+        .registration-form input[type="email"],
+        .registration-form input[type="submit"] {
+            width: 100%;
+            padding: 0.5rem;
+            margin: 0.5rem 0;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+        }
     </style>
 </head>
 <body>
     <header>
-        <h1>Willkommen zum GitHub Workshop</h1>
+        <h1>WEP 2025 Workshop: Smart Home Automation with ESPHome</h1>
     </header>
     <div class="container">
-        <section class="workshop-details">
-            <h2>Workshop Details</h2>
-            <p>Dieser Workshop bietet eine Einführung in Git und GitHub. Sie lernen, wie Sie Repositorys erstellen, Änderungen verfolgen und effektiv mit anderen Entwicklern zusammenarbeiten.</p>
+        <section class="section">
+            <h2>Workshop Overview</h2>
+            <p>Join us for a hands-on workshop on Smart Home Automation with ESPHome at WEP 2025. Over two days, you will learn how to set up and use ESPHome to create smart home projects. We'll cover how to connect sensors and devices, and how to make your home smarter with automation. This workshop is perfect for anyone interested in IoT and home automation, from beginners to tech enthusiasts. Come and discover new ideas and solutions for the future of smart homes.</p>
+            <img src="https://example.com/smart-home.jpg" alt="Smart Home Automation">
         </section>
-        <section class="schedule">
-            <h2>Ablauf</h2>
+
+        <section class="section">
+            <h2>Workshop Theme</h2>
+            <p>Aligning with WEP 2025's theme of embracing exceptional individuals (outliers), this workshop focuses on empowering participants to become outliers in smart home technology by using ESPHome. It encourages innovative thinking and unconventional approaches to IoT and home automation.</p>
+        </section>
+
+        <section class="section">
+            <h2>Objectives</h2>
             <ul>
-                <li><strong>09:00 - 10:00:</strong> Einführung in Git</li>
-                <li><strong>10:00 - 11:00:</strong> Grundlegende Befehle und Konzepte</li>
-                <li><strong>11:00 - 12:00:</strong> Arbeiten mit GitHub</li>
-                <li><strong>12:00 - 13:00:</strong> Mittagspause</li>
-                <li><strong>13:00 - 14:00:</strong> Fortgeschrittene Techniken</li>
-                <li><strong>14:00 - 15:00:</strong> Zusammenarbeit und Pull Requests</li>
-                <li><strong>15:00 - 16:00:</strong> Q&A und Abschluss</li>
+                <li>Highlighting Outliers: Showcase exceptional projects and individuals who have utilized ESPHome in innovative ways.</li>
+                <li>Hands-On Experience: Engage participants in practical exercises with ESPHome and IoT devices.</li>
+                <li>Foster Innovation: Encourage creative and unconventional approaches to smart home technology.</li>
             </ul>
         </section>
-        <section class="registration">
-            <h2>Anmeldung</h2>
-            <p>Bitte registrieren Sie sich für den Workshop, indem Sie das folgende Formular ausfüllen:</p>
-            <form action="https://example.com/registration" method="post">
+
+        <section class="section">
+            <h2>Course Outline</h2>
+            <h3>Day 1</h3>
+            <ul>
+                <li>Introduction to ESPHome</li>
+                <li>Setting Up ESPHome</li>
+                <li>Creating Your First ESPHome Project</li>
+                <li>Sensor and Actuator Integration</li>
+            </ul>
+            <h3>Day 2</h3>
+            <ul>
+                <li>Advanced ESPHome Configurations</li>
+                <li>Project: Smart Thermostat</li>
+                <li>Project: Home Security System</li>
+                <li>Troubleshooting and Optimization</li>
+            </ul>
+            <img src="https://example.com/workshop.jpg" alt="Workshop Image">
+        </section>
+
+        <section class="section">
+            <h2>Registration</h2>
+            <p>Please register for the workshop by filling out the form below:</p>
+            <form class="registration-form" action="https://example.com/registration" method="post">
                 <label for="name">Name:</label><br>
                 <input type="text" id="name" name="name" required><br>
-                <label for="email">E-Mail:</label><br>
+                <label for="email">Email:</label><br>
                 <input type="email" id="email" name="email" required><br><br>
-                <input type="submit" value="Registrieren">
+                <input type="submit" value="Register">
             </form>
         </section>
     </div>
